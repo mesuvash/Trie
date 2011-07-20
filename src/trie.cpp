@@ -117,15 +117,13 @@ int main() {
 	Trie t;
 	string s1("Suvash");
 	string s2("Surendra");
-	string s3("Suvash");
 	string prefix("Su");
-	t.addWord(s3);
 	t.addWord(s1);
 	t.addWord(s1);
 	t.addWord(s2);
 	cout << "word count for " << s1 << " is " << t.countWord(s1)<<endl;
 	cout << "word count for " << s2 << " is " << t.countWord(s2)<<endl;
-	cout << "prefix count for " << prefix << "is " << t.countPrefix(prefix)<<endl;
+	cout << "prefix count for " << prefix << " is " << t.countPrefix(prefix)<<endl;
 
 	return 0;
 }
